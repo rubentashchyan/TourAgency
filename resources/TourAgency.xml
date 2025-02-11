@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<travelAgency>
+    <tours>
+        <tour id="T001">
+            <name>Paris Getaway</name>
+            <destination>France</destination>
+            <price>1200</price>
+            <duration>7</duration>
+            <dates>
+                <date>2024-06-15</date>
+                <date>2024-07-01</date>
+            </dates>
+            <guide>
+                <id>G001</id>
+                <name>Jean Dupont</name>
+                <language>French</language>
+            </guide>
+        </tour>
+        <tour id="T002">
+            <name>Safari Adventure</name>
+            <destination>Kenya</destination>
+            <price>2500</price>
+            <duration>10</duration>
+            <dates>
+                <date>2024-08-10</date>
+                <date>2024-09-15</date>
+            </dates>
+            <guide>
+                <id>G002</id>
+                <name>Nakuru Mwangi</name>
+                <language>Swahili</language>
+            </guide>
+        </tour>
+        <!-- Другие туры -->
+    </tours>
+    <clients>
+        <client id="C001">
+            <name>John Smith</name>
+            <email>john.smith@example.com</email>
+            <phone>+1234567890</phone>
+            <bookings>
+                <booking tourId="T001" date="2024-06-15" />
+                <booking tourId="T002" date="2024-08-10" />
+            </bookings>
+        </client>
+        <client id="C002">
+            <name>Maria Garcia</name>
+            <email>maria.garcia@example.com</email>
+            <phone>+0987654321</phone>
+            <bookings>
+                <booking tourId="T002" date="2024-09-15" />
+            </bookings>
+        </client>
+        <!-- Другие клиенты -->
+    </clients>
+</travelAgency>

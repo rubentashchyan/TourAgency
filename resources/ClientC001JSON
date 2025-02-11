@@ -1,0 +1,16 @@
+{
+  "clientID": "C001",
+  "name": "John Smith",
+  "email": "john.smith@example.com",
+  "phone": "+1234567890",
+  "bookings": [
+    {
+      "tourID": "T001",
+      "date": "2024-06-15"
+    },
+    {
+      "tourID": "T002",
+      "date": "2024-08-10"
+    }
+  ]
+}

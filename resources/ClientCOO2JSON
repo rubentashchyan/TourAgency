@@ -1,0 +1,12 @@
+{
+    "clientID": "C002",
+    "name": "Maria Garcia",
+    "email": "maria.garcia@example.com",
+    "phone": "+0987654321",
+    "bookings": [
+      {
+        "tourID": "T002",
+        "date": "2024-09-15"
+      }
+    ]
+  }

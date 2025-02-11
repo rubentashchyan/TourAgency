@@ -1,0 +1,16 @@
+{
+    "tourID": "T002",
+    "name": "Safari Adventure",
+    "destination": "Kenya",
+    "price": 2500,
+    "duration": 10,
+    "dates": [
+      "2024-08-10",
+      "2024-09-15"
+    ],
+    "guide": {
+      "id": "G002",
+      "name": "Nakuru Mwangi",
+      "language": "Swahili"
+    }
+  }

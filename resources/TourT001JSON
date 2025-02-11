@@ -1,0 +1,14 @@
+{
+  "tourID": "T001",
+  "name": "Paris Getaway",
+  "destination": "France",
+  "price": 1200,
+  "duration": 7,
+  "dateStart": "2024-06-15",
+  "dateEnd": "2024-07-01",
+  "guide": {
+    "id": "G001",
+    "name": "Jean Dupont",
+    "language": "French"
+  }
+}
